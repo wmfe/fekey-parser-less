@@ -1,0 +1,23 @@
+{
+    "name" : "fekey-parser-less",
+    "description" : "A parser for fekey to compile less file.",
+    "version" : "0.0.1",
+    "homepage" : "https://github.com/wmfe/fekey-parser-less",
+    "author": "xumingjie_iwm",
+    "keywords": [ "fekey", "less" ],
+    "license": "MIT",
+    "main" : "index.js",
+    "engines" : {
+        "node" : ">= 0.8.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/wmfe/fekey-parser-less.git"
+    },
+    "scripts" : {
+        "test" : "mocha test/ut --recursive"
+    },
+    "dependencies" : {
+        "less" : ""
+    }
+}
